@@ -1,0 +1,75 @@
+.redc{
+    background-color: red;
+   
+}
+
+.hero{
+    min-height: 100vh;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.headtext{
+    font-size: 10px;
+    color: grey;
+}
+
+.maintext{
+    font-size: 43px !important;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size:xx-large;
+}
+
+.greentext{
+    margin-top: -10px;
+    color: rgb(2, 168, 2);
+    border-radius: 50px;
+    background-color: rgba(61, 246, 61, 0.093);
+}
+
+.smalltext{
+    font-size: 12px;
+    display: flex;
+    text-align: center;
+    color: rgb(87, 87, 87);
+}
+
+.btnscore{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    padding: 13px;
+    width: 160px;
+    border: none;
+    transition: all 1s ease;
+}
+.btnscore:hover{
+    width: 190px;
+}
+
+.cards{
+    display: flex;
+    gap: 25px;
+    padding: 30px;
+}
+
+.bigcards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}

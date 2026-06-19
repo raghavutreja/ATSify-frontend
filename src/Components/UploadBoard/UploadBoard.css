@@ -1,0 +1,51 @@
+.centerupload{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(2, 186, 2, 0.122);
+    border: 2px solid rgba(2, 186, 2, 0.555);
+}
+
+#imageupload{
+    border: 1px solid black;
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 50%;
+    background-color: white;
+    transition: all 1s ease;
+}
+
+#imageupload:hover{
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.389);
+    cursor: pointer;
+}
+
+#text{
+    border-radius: 20px;
+    padding: 20px;
+    border: none;
+    transition: all 1s ease;
+}
+
+#text:hover{
+    box-shadow: 0 4px 20px rgba(0,0,0,0.389);
+}
+
+.firstcenter{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.uploadbutton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

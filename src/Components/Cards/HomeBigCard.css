@@ -1,0 +1,17 @@
+.bigcard{
+    display: flex;
+    min-height: 40%;
+    width: 45%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 20px;
+    transition: all 1s ease;
+}
+
+.bigcard:hover{
+    box-shadow: 0.5px 0.5px 15px 1px rgba(0, 0, 0, 0.3);
+    width:48%;
+}
