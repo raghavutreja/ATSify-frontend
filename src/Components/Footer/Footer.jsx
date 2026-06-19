@@ -9,7 +9,7 @@ function Footer() {
           <h5 className="card-title topline">
             <a className="navbar-brand linkallu" href="/">
               <img
-                src="../../../public/logo.png"
+                src="/logo.png"
                 height="24"
                 width="30"
                 className="d-inline-block align-text-top image"
