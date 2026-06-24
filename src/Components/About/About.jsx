@@ -5,7 +5,7 @@ function About() {
     <div className="container">
       <div className="row p-5">
         <div className="col-1"></div>
-        <div style={{height:"60vh",boxShadow:"0px 5px 20px grey",borderRadius:"30px",padding:"40px",fontSize:"20px" ,backgroundColor:"white",textAlign:"center",justifySelf:"center",display:"flex",alignItems:"center"}} className="col mb-5">
+        <div style={{minHeight:"60vh",boxShadow:"0px 5px 20px grey",borderRadius:"30px",padding:"40px",fontSize:"20px" ,backgroundColor:"white",textAlign:"center",justifySelf:"center",display:"flex",alignItems:"center"}} className="col mb-5">
           ATS Resume Checker is an AI-powered resume analysis platform designed
           to help job seekers improve their resumes and increase their chances
           of passing Applicant Tracking Systems (ATS). <br /> <br />

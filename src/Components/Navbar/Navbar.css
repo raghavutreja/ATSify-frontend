@@ -1,45 +1,36 @@
-.bg-black{
-    width: 50%;
-    justify-self: center;
-    margin-top: 30px;
-    margin-bottom: 100px;
-    border-radius: 20px;
-    background-color: white !important;
-    padding-left: 20px;
-    padding-right: 20px;
+.stylenav{
+    background-color: white;
+    border-radius:20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.166);
     display: flex;
-    flex-direction: column;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    justify-content: space-between;
+    padding: 1%;
+    padding-right: 1.5%;
+    
+    padding-left: 1.5%;
 }
-
-.linkallu{
-    gap: 10px;
-    font-weight: 500;
-    color: black;
-    font-size: 16px;
-    display: flex;
-    width: 16%;
-}
-
 .image{
     border-radius: 10px;
+    margin-right: 1rem;
 }
 
-.arranging{
+.logo{
     display: flex;
-    width: 100%;
-    justify-content: space-between;
 }
 
-.extras{
-    display: flex; 
-    align-items: center;
-    gap: 20px;
-    width: 25%;
+.huh{
+    padding-right: 6%;
 }
 
-.extras a{
-    color: black;
-    text-decoration: none;
+.huh a{
+    text-decoration: none;  
+    color: black; 
 }
 
+.linkone{
+    margin-right: 10%;
+}
+
+.linktwo{
+    margin-left: 10%;
+}
